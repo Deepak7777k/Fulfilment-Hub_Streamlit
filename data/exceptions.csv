@@ -1,0 +1,8 @@
+exception_id,order_id,type,severity,description,status,owner,created_at
+EXC001,ORD1003,INVENTORY_SHORTAGE,HIGH,SKU007 shortage in main warehouse,OPEN,Warehouse Team,2026-10-06 22:30:34.777451
+EXC002,ORD1010,WRONG_VARIANT,CRITICAL,Picked blue variant instead of white,OPEN,Picking Team,2026-10-06 22:40:34.777451
+EXC003,ORD1015,COURIER_DELAY,HIGH,Courier pickup not completed,OPEN,Operations Team,2026-10-06 22:50:34.777451
+EXC004,ORD1020,MISPLACED_BOX,HIGH,Packed box could not be located in staging,OPEN,Warehouse Team,2026-10-06 23:00:34.777451
+EXC005,ORD1025,INVENTORY_MISMATCH,MEDIUM,System quantity differs from physical count,OPEN,Inventory Team,2026-10-06 23:05:34.777451
+EXC006,ORD1030,WRONG_PRODUCT,CRITICAL,Picked SKU does not match order,OPEN,Picking Team,2026-10-06 23:10:34.777451
+EXC007,ORD1040,COURIER_DELAY,MEDIUM,Courier arrival delayed,RESOLVED,Operations Team,2026-10-06 21:20:34.777451
